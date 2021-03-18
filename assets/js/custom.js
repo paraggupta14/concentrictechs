@@ -24,11 +24,11 @@ jQuery(document).ready(function ($) {
     var box = $(".header-text").height();
     var header = $("header").height();
 
-    if (scroll >= box - header) {
-      $("header").addClass("background-header");
-    } else {
-      $("header").removeClass("background-header");
-    }
+    // if (scroll >= box - header) {
+    //   $("header").addClass("background-header");
+    // } else {
+    //   $("header").removeClass("background-header");
+    // }
   });
   if ($(".owl-testimonials").length) {
     $(".owl-testimonials").owlCarousel({
@@ -93,7 +93,7 @@ jQuery(document).ready(function ($) {
 
   $(".Modern-Slider").slick({
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 5000,
     speed: 600,
     slidesToShow: 1,
     slidesToScroll: 1,

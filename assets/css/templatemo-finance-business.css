@@ -6,6 +6,17 @@ https://templatemo.com/tm-545-finance-business
 
 */
 
+.lastAboutUs {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.aboutUsImg {
+  height: 300px;
+  width: 300px;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
@@ -622,6 +633,7 @@ ul.slick-dots {
 
 .service-item .down-content {
   background-color: #f7f7f7;
+  height: 240px;
   padding: 30px;
 }
 
@@ -1352,6 +1364,7 @@ footer .contact-form button.filled-button:hover {
   .navbar:after {
     display: none;
   }
+
   #navbarResponsive {
     z-index: 99999;
     position: absolute;
